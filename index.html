@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Learn CSS</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&family=Work+Sans:wght@200;300;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <h1>Learn CSS</h1>
+      <h2>Colors</h2>
+      <!-- Table 1 -->
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Ways</th>
+            <th scope="col">Property</th>
+            <th scope="col">Value</th>
+            <th scope="col">Declaration</th>
+            <th scope="col">Description</th>
+            <th scope="col">Ranges</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Row 1 -->
+          <tr>
+            <th>Color Name Keywords</th>
+            <td>Color</td>
+            <td>Pink</td>
+            <td class="bg-name"><span class="highlighted">color: pink;</span></td>
+            <td>Color name keywords can be used to set color property values for elements in CSS.</td>
+            <td>There are <span class="highlighted">147 named colors</span>, which you can review <a href="http://www.colors.commutercreative.com/grid/" target="_blank">here</a>.</td>
+          </tr>
+          <!-- End Row 1 -->
+          <!-- Row 2 -->
+          <tr>
+            <th>Hexadecimal Colors</th>
+            <td>Color</td>
+            <td>#F1A9BB</td>
+            <td class="bg-hexadecimal"><span class="highlighted">color: #F1A9BB;</span></td>
+            <td>Hex values always begin with # and specify values of red, blue and green using hexademical numbers such as #F1A9BB.</td>
+            <td>Hexadecimal is a number system <span class="highlighted">with 16 digits, from 0 to F (0-9 / A-F)</span>.</td>
+          </tr>
+          <!-- End Row 2 -->
+          <!-- Row 3 -->
+          <tr>
+            <th>rgb() Colors</th>
+            <td>Color</td>
+            <td>rgb(219, 134, 169)</td>
+            <td class="bg-rgb"><span class="highlighted">color: rgb(219, 134, 169);</span></td>
+            <td>rgb() should be supplied with three values representing red, green, and blue.</td>
+            <td>These values range can <span class="highlighted">from 0 to 255</span>.</td>
+          </tr>
+          <!-- End Row 3 -->
+          <!-- Row 4 -->
+          <tr>
+            <th>HSL Colors</th>
+            <td>Color</td>
+            <td>hsl(351, 100%, 72%)</td>
+            <td class="bg-hsl"><span class="highlighted">color: hsl(351, 100%, 72%);</span></td>
+            <td>This syntax contains three values: hue (the color value itself), saturation (intensity), and lightness.</td>
+            <td>Hue values range <span class="highlighted">from 0 to 360</span> while saturation and lightness values are represented as percentages.</td>
+          </tr>
+          <!-- End Row 4 -->
+          <!-- Row 5 -->
+          <tr>
+            <th rowspan="3">Color Alpha Values</th>
+            <td>Color</td>
+            <td>rgba(106, 201, 197, 0.5);</td>
+            <td class="bg-rgba"><span class="highlighted">color: rgba(106, 201, 197, 0.5);</span></td>
+            <td>Alpha values can be set for RGB colors by using rgba() and providing a fourth value representing alpha.</td>
+            <td rowspan="3">Alpha values determine the transparency of colors in CSS. Alpha values can range <span class="highlighted">between 0.0 (totally transparent) and 1.0 (totally opaque).</span>
+            </td>
+          </tr>
+          <!-- End Row 5 -->
+          <!-- Row 6 -->
+          <tr>
+            <td>Color</td>
+            <td>hsla(177, 47%, 60%, 1)</td>
+            <td class="bg-hsla"><span class="highlighted">color: hsla(177, 47%, 60%, 1);</span></td>
+            <td>Alpha values can be set for HSL colors by using hsla() and providing a fourth value representing alpha.</td>
+          </tr>
+          <!-- End Row 6 -->
+          <!-- Row 7 -->
+          <tr>
+            <td>Color</td>
+            <td>Transparent</td>
+            <td><span class="highlighted">color: transparent;</span></td>
+            <td>The CSS transparent value can also be used to create a fully transparent element.</td>
+          </tr>
+          <!-- End Row 7 -->
+        </tbody>
+      </table>
+      <!-- End Table 1 -->
+      <h2>CSS Color Alpha Values</h2>
+      <!-- Table 2 -->
+      <table>
+        <thead>
+          <th class="blank"></th>
+          <th scope="col">Name Keywords</th>
+          <th scope="col">Hexadecimal</th>
+          <th scope="col">RGB()</th>
+          <th scope="col">HSL</th>
+        </thead>
+        <tbody>
+          <!-- Row 1 -->
+          <tr>
+            <th>Alpha Values</th>
+            <td></td>
+            <td></td>
+            <td>X</td>
+            <td>X</td>
+          </tr>
+          <!-- End Row 1 -->
+        </tbody>
+      </table>
+      <!-- End Table 2 -->
+    </main>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #F4DAC9;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+}
+
+/*
+ * HEADING SECTION
+ */
+
+h1, h2, td {
+  text-align: center;
+  padding: 30px 0;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 500; 
+  border-bottom: 3px solid #000;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 200;
+  border-bottom: 1px solid #000;
+}
+
+/*
+ * CONTENT SECTION
+ */
+
+table {
+  margin: 100px auto;
+  border-collapse: collapse;
+  width: 85%;
+}
+
+thead th, tbody th, td {  
+  border: 1px solid #000;
+}
+
+thead th, tbody th {
+  color: #FFF;
+  padding: 40px 20px;
+}
+
+thead th {
+  background-color: #692A4E;
+}
+
+tbody th {
+  background-color: #A66D82;
+  line-height: 1.5em;
+}
+
+th {
+  font-family: "PT Mono", monospace;
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+
+td {
+  font-size: 16px;
+  line-height: 1.2em;
+  padding: 15px;
+}
+
+.bg-name {
+  background-color: pink;
+}
+
+.bg-hexadecimal {
+  background-color: #F1A9BB;
+}
+
+.bg-rgb {
+  background-color: rgb(219, 134, 169);
+}
+
+.bg-hsl {
+  background-color: hsl(351, 100%, 72%);
+}
+
+.bg-rgba {
+  background-color: rgba(106, 201, 197, 0.5);
+}
+
+.bg-hsla {
+  background-color: hsla(177, 47%, 60%, 1);
+}
+
+.highlighted {
+  font-weight: 900;
+}
+
+a {
+  color: #692A4E;
+}
+
+.blank {
+  background-color: #F4DAC9;
+  border: none;
+}
